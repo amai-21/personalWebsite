@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Button } from "./button.jsx";
 
-import Nav from "./Nav.jsx";
+import Nav from "./nav.jsx";
 
 const Header = () => {
     return (
