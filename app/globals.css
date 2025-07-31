@@ -38,7 +38,8 @@
     --secondary-foreground: 222.2 47.4% 11.2%;
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
-    --accent: 195 81.7% 61.6%; /* Color coordination found with the following resource: https://colorpicker.dev/#4dc5ed */
+    --accent: 195 81.7% 61.6%;
+    /* Color coordination found with the following resource: https://colorpicker.dev/#4dc5ed */
     --accent-foreground: 222.2 47.4% 11.2%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
@@ -52,6 +53,7 @@
     --chart-5: 27 87% 67%;
     --radius: 0.5rem;
   }
+
   .dark {
     --background: 222.2 84% 4.9%;
     --foreground: 210 40% 98%;
@@ -83,6 +85,7 @@
 
 
 @layer base {
+
   /* * {
     @apply border-border;
   } */
@@ -90,13 +93,25 @@
     @apply font-primary bg-primary;
     @apply font-primary text-white;
   }
+
   .h1 {
     @apply text-[48px] xl:text-[80px] leading-[1.1] font-semibold;
   }
+
   .h2 {
     @apply text-[36px] xl:text-[48px] leading-[1.1] font-semibold;
   }
+
   .h3 {
     @apply text-[20px] xl:text-[24px] leading-[1.1] font-semibold;
   }
+
+  .text-outline {
+    -webkit-text-stroke: 1px #ffffff;
+  }
+
+  .text-outline-hover {
+    -webkit-text-stroke: 1px #4DC5ED;
+  }
+
 }
