@@ -6,7 +6,7 @@ import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 
 const about = {
     title: "About me",
-    description: "To be filled out.",
+    description: "",
     info: [
         {
             fieldName: "Name",
@@ -34,8 +34,8 @@ const about = {
 
 const experience = {
     icon: "",
-    title: "My experience",
-    description: "To be added.",
+    title: "My Experience",
+    description: "",
     items: [
         {
             company: "University of Missouri-St. Louis",
@@ -54,7 +54,7 @@ const experience = {
 const education = {
     icon: "",
     title: "My Education",
-    description: "To be added.",
+    description: "",
     items: [
         {
             institution: "University of Missouri-St. Louis",
@@ -109,8 +109,8 @@ const education = {
 };
 
 const skills = {
-    title: "My skills",
-    description: "To be continued",
+    title: "My Skills",
+    description: "",
     skillList: [
         {
             icon: <FaHtml5 />,

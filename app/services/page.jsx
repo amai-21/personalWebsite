@@ -7,25 +7,7 @@ const services = [
     {
         num: '01',
         title: 'Web Development',
-        description: 'To be completed soon.',
-        href: ""
-    },
-    {
-        num: '02',
-        title: 'UI/UX Design',
-        description: 'To be completed soon.',
-        href: ""
-    },
-    {
-        num: '03',
-        title: 'Logo Design',
-        description: 'To be completed soon.',
-        href: ""
-    },
-    {
-        num: '04',
-        title: 'SEO',
-        description: 'To be completed soon.',
+        description: '',
         href: ""
     },
 ];
