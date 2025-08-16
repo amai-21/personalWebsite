@@ -13,10 +13,10 @@ const Home = () => {
           <div className = "text-center xl:text-left order-2 xl:order-none">
             <span className = "text-xl">Software Engineer</span>
             <h1 class = "h1 mb-6">
-              Hello! I'm <br /> <span className = "text-accent">Andy Mai</span>
+              Hi! I'm <br /> <span className = "text-accent">Andy Mai</span>
             </h1>
             <p className = "max-w-[500px] mb-6 text-white/80">
-              I specialize in building great and highly-responsive digital experiences.
+              I specialize in building full stack development.
             </p>
 
             <div className = "flex flex-col xl:flex-row items-center gap-8">
