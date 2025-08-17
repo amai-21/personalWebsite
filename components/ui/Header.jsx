@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Button } from "./button.jsx";
 
 import Nav from "./Nav.jsx";
-import MobileNav from "./MobileNav.jsx";
+import MobileNav from "./mobileNav.jsx";
 
 const Header = () => {
     return (
