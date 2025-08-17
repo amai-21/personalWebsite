@@ -10,6 +10,12 @@ const services = [
         description: '',
         href: ""
     },
+    {
+        num: '02',
+        title: 'Mobile Development',
+        description: '',
+        href: ""
+    },
 ];
 
 import { motion } from "framer-motion";
