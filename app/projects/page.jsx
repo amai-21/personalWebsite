@@ -11,7 +11,7 @@ import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "../../
 
 import Link from "next/link";
 import Image from "next/image";
-import WorkSliderBtns from "../../components/ui/WorkSliderBtns.jsx";
+import WorkSliderBtns from "../../components/ui/WorkSliderBtns";
 
 
 const projects = [
